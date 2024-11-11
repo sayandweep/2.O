@@ -193,7 +193,7 @@ svg.behance-svg, svg.instagram-svg {
   background: var(--colorB);
   color: var(--colorD);
   position: absolute;
-  top: 50%;
+  top: 55%;
   right: 4%;
   border-radius: 100px;
   padding: 5px 15px;
