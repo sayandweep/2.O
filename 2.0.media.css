@@ -1,0 +1,78 @@
+@media (min-width:786px) {
+    .navbar-nav {
+        position: absolute;
+        right: 500px
+    }
+    .navbar-nav .navbar-link-ahref {
+        font-size: 1rem;
+    }
+    .vctr1 {
+        position: fixed;
+        top: 0% !important;
+        width: 30% !important;
+        left: 66%;
+        z-index: -1;
+      }
+      .vector .vctr2 {
+        position: fixed;
+        top: -30%;
+        right: -30%;
+        z-index: -1;
+        width:80%;
+      }
+      .image__dp {
+        width: 100%;
+      }
+      .home__sq {
+        margin-top: 40px
+      }
+      .about__dp .texthere h5 {
+        font-size: 2rem;
+        margin: 32px 0 0 0;
+      }
+      .about__dp .texthere p {
+        font-size: 1.5rem;
+      }
+      .large-hide {
+        transform: scale(0);
+        position: absolute;
+        z-index: -1;
+      }
+      svg.behance-svg, svg.instagram-svg {
+        width: 30px;
+        height: 30px
+    }
+      .contact-me-btn {
+        top: 40%;
+        font-size: 1.7rem;
+        padding: 10px 20px;
+        position: fixed;
+        border: solid white .2rem
+      }
+      .home-inbox-text {
+        font-size: 7rem;
+        line-height: 7rem;
+        padding: 90px 0;
+      }
+      .showcase-box {
+        padding: 90px 0;
+      }
+      .showcase-page {
+        padding: 0px 0;
+    }
+    .showcase-page .container .row .col-sm-6 {
+        padding: 10px;
+    }
+
+      @keyframes marquee {
+        0% {
+          transform: translate3d(100%, 0, 0);
+        }
+        50% {
+          transform: translate3d(-100%, 0%, 0);
+        }
+        100% {
+          transform: translate3d(100%, 0%, 0);
+        }
+      }
+}

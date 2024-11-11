@@ -1,0 +1,231 @@
+/* ______________________________
+DESIGNED & DEVELOPED BY SAYANDWEEP
+USED APPS - Bootstrap5, Animista, SliderJS
+_________________________________*/
+
+:root {
+  --fontA: Hubot Sans /* Logo font */;
+  --fontB: Host Grotesk /* Body font */;
+  --colorA: #FF3F3F /* Red Color */;
+  --colorB: #0A100D /* Black color */;
+  --colorC: #022FFF /* Blue color */;
+  --colorD: #45C302 /* Green */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: whitesmoke !important;
+  color: var(--colorB) !important;
+  font-family: var(--fontB) !important;
+}
+a:hover {
+  color: var(--colorD) !important;
+}
+::selection {
+  color: var(--colorD);
+}
+.overflow-x-hidden {
+  overflow-x: hidden
+}
+.navbar-brand {
+  font-family: var(--fontA);
+  font-size: 1.6rem !important;
+  font-weight: bold;
+}
+.navbar-toggler,.navbar-toggler-icon,.navbar-toggler:hover,.navbar-toggler-icon:hover {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: 200ms ease-in-out
+}
+.navbar-nav .nav-item .nav-link {
+  color: var(--colorB) !important;
+}
+ .navbar-toggler[aria-expanded="false"] {
+  transform: rotate(0deg);
+  stroke:  #000000;
+}
+.navbar-toggler[aria-expanded="true"] {
+  transform: rotate(120deg);
+  stroke: #45C302;
+}
+.navbar {
+  padding: 30px 15px 0 15px;
+  border-bottom: solid #00000029 1px;
+  background: whitesmoke;
+}
+.pro__active {
+  background: var(--colorD) !important;
+  text-align: center;
+  color: var(--colorB) !important;
+  transition: .1s ease-out;
+  display: block;
+  padding: 20px;
+  width: 100%;
+}
+.pro__active:active, .pro__active:hover{
+  color: var(--colorD) !important;
+  background: var(--colorC) !important;
+}
+.pro__active:active {
+  transform: scale(1.1);
+}
+.nav-link {
+  font-weight: 600;
+  font-size: .85rem;
+  width: 300px;
+  display: inline-block;
+}
+a.navbar-link-ahref {
+  color: var(--colorB);
+  transition: .1s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .7rem;
+  display: inline-block;
+  width: 100%;
+}
+a.nav-link-ahref:hover {
+  color: var(--colorD) !important;
+}
+.home__sq,.home-inbox-text {
+  padding: 20px;
+  /*mix-blend-mode: color-burn;*/
+  color: var(--colorB);
+}
+.image__dp img {
+  width: 100%;
+  border-radius: 100px;
+}
+.about__dp .texthere h5, .about__dp .texthere p {
+  margin-bottom: 0
+}
+.about__dp .texthere p {
+  font-size: .8rem
+}
+.about__dp .texthere p a {
+  margin-top: 5px;
+  margin-right: 3px
+}
+.home-inbox-text {
+  font-size: 3.5rem;
+  line-height: 3rem
+}
+svg.behance-svg, svg.instagram-svg {
+    width: 24px;
+    height: 24px
+}
+.marquee_container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: var(--colorC);
+  padding: 0.2rem 0;
+  margin: 20px 0 0 0;
+}
+.marquee {
+  display: flex;
+  align-items: center;
+  animation: marquee 10s linear infinite;
+  transition: 300ms ease-in-out;
+}
+.marquee h1 {
+  display: inline-block;
+  margin: 19px;
+  color: white;
+  font-family: var(--fontB) !important
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  50% {
+    transform: translate3d(-400%, 0%, 0);
+  }
+  100% {
+    transform: translate3d(300%, 0%, 0);
+  }
+}
+.showcase-box {
+  background: var(--colorB);
+  color: white;
+  padding: 40px 20px
+}
+.showcase-box img {
+  border-radius: 15px;
+  transition: .2s ease-in-out;
+}
+.showcase-box img:hover {
+    transform: translateY(10px);
+    filter: contrast(200%);
+}
+.showcase-box .col-sm-4 div {
+  padding: 10px 0
+}
+.copyright {
+  padding-top: 20px;
+  font-size: 1rem;
+  color: whitesmoke;
+  background: var(--colorB);
+}
+.copyright .container .footer {
+  display: flex;
+  justify-content: space-between;
+}
+.vctr1 {
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    z-index: -1;
+  }
+.vector,.showcase-page {
+    overflow-x: hidden;
+}
+.vector .vctr2 {
+    position: fixed;
+    top: -6%;
+    right: -35%;
+    z-index: -1;
+  }
+.contact-me-btn {
+  background: var(--colorB);
+  color: var(--colorD);
+  position: absolute;
+  top: 47%;
+  right: 3%;
+  border-radius: 100px;
+  padding: 5px 15px;
+  z-index: 0;
+  transform: rotate(-90deg)
+}
+.contact-me-btn:active {
+  background: var(--colorD);
+  color: var(--colorB);
+}
+button {
+    border: none
+}
+.showcase-page .container {
+    padding: 0;
+}
+.a1{-webkit-animation:a1 .6s cubic-bezier(.25,.46,.45,.94) both;animation:a1 .6s cubic-bezier(.25,.46,.45,.94) both}
+.a2{-webkit-animation:a2 .6s cubic-bezier(.25,.46,.45,.94) both;animation:a2 .6s cubic-bezier(.25,.46,.45,.94) both}
+
+ @-webkit-keyframes a1{0%{-webkit-transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
+ @keyframes a1{0%{-webkit-transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
+
+@-webkit-keyframes a2{0%{-webkit-transform:rotateY(-20deg) rotateX(-35deg) translate(-300px,300px) skew(-35deg,10deg);transform:rotateY(-20deg) rotateX(-35deg) translate(-300px,300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
+@keyframes a2{0%{-webkit-transform:rotateY(-20deg) rotateX(-35deg) translate(-300px,300px) skew(-35deg,10deg);transform:rotateY(-20deg) rotateX(-35deg) translate(-300px,300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
+@media (max-width: 786px) {
+  .small-hide {
+    position: absolute;
+    z-index: -1;
+    transform: scale(0)
+  }
+  .image__dp img {
+  width: 90%;
+  border-radius: 100px;
+}
+}
