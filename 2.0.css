@@ -44,11 +44,11 @@ a:hover {
 }
  .navbar-toggler[aria-expanded="false"] {
   transform: rotate(0deg);
-  stroke:  #000000;
+  stroke:  #45C302;
 }
 .navbar-toggler[aria-expanded="true"] {
-  transform: rotate(120deg);
-  stroke: #45C302;
+  transform: rotate(135deg);
+  stroke: #000000;
 }
 .navbar {
   padding: 30px 15px 0 15px;
@@ -82,7 +82,7 @@ a.navbar-link-ahref {
   transition: .1s ease-in-out;
   text-decoration: none;
   font-weight: bold;
-  font-size: .7rem;
+  font-size: 1.3rem;
   display: inline-block;
   width: 100%;
 }
