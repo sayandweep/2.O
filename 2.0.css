@@ -222,12 +222,11 @@ button {
 .a2{-webkit-animation:a2 .6s cubic-bezier(.25,.46,.45,.94) both;animation:a2 .6s cubic-bezier(.25,.46,.45,.94) both}
 
 .circle_bl {
-  background: var(--colorC);
   border-radius: 100px;
   padding-right: 40px;
-  padding-left: 4px;
+  font-weight: bold;
   display: inline-block;
-  color: white;
+  color: var(--colorA);
   margin: 10px 0;
   font-size: 12px;
   display: flex;
@@ -239,7 +238,7 @@ button {
 }
 .app__text_norm {
   font-family: var(--fontB);
-  margin: 30px 0;
+  margin: 30px 0 0 0;
   line-height: 1.2rem;
   font-size: 1.1rem;
   opacity: .7
