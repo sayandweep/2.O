@@ -9,15 +9,24 @@ _________________________________*/
   --colorA: #FF3F3F /* Red Color */;
   --colorB: #0A100D /* Black color */;
   --colorC: #022FFF /* Blue color */;
-  --colorD: #45C302 /* Green */
+  --colorD: #45C302 /* Green */;
+  --colorE: #F8F7F3 /* Cream bg */
 }
 * {
   box-sizing: border-box;
 }
 body {
-  background: #F8F7F3 !important;
-  color: var(--colorB) !important;
+  background: var(--colorE) !important;
+  color: var(--colorB);
   font-family: var(--fontB) !important;
+}
+
+/* Common CSS */
+.font1 {
+  font-family: "Herr Von Muellerhoff", cursive;
+}
+.font2 {
+  font-family: "Mrs Saint Delafield", serif;
 }
 a:hover {
   color: var(--colorD) !important;
@@ -29,9 +38,8 @@ a:hover {
   overflow-x: hidden
 }
 .navbar-brand {
-  font-family: var(--fontA);
-  font-size: 1.6rem !important;
-  font-weight: bold;
+  font-size: 1.9rem !important;
+  font-weight: 500;
 }
 .navbar-toggler,.navbar-toggler-icon,.navbar-toggler:hover,.navbar-toggler-icon:hover {
   border: none !important;
@@ -55,8 +63,17 @@ a:hover {
 }
 .navbar {
   padding: 30px 15px 0 15px;
-  border-bottom: solid #00000029 1px;
-  background: whitesmoke;
+  background: var(--colorE);
+}
+.navbar-crosmenu-tit {
+  font-size: .8rem;
+  margin: 14px 0
+}
+.footer-mail-btn {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
 .pro__active {
   background: var(--colorD) !important;
@@ -66,6 +83,7 @@ a:hover {
   display: block;
   padding: 20px;
   width: 100%;
+  text-decoration: none
 }
 .pro__active:active, .pro__active:hover{
   color: var(--colorD) !important;
@@ -84,10 +102,11 @@ a.navbar-link-ahref {
   color: var(--colorB);
   transition: .1s ease-in-out;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.3rem;
+  font-weight: 500;
+  font-size: 2rem;
   display: inline-block;
   width: 100%;
+  margin: -5px 0
 }
 a.nav-link-ahref:hover {
   color: var(--colorD) !important;
@@ -100,12 +119,19 @@ a.nav-link-ahref:hover {
 .image__dp .dp__ {
   width: 100%;
   border-radius: 20px;
+  margin: 9px 0 0 0;
 }
 .about__dp .texthere h5, .about__dp .texthere p {
   margin-bottom: 0
 }
+.about__dp h5 {
+  font-size: 2rem
+}
 .about__dp .texthere p {
-  font-size: .8rem
+  font-size: .67rem;
+  font-weight: 500;
+  opacity:.7;
+  margin: -3px 0 2px 0
 }
 .about__dp .texthere p a {
   margin-top: 5px;
@@ -114,10 +140,6 @@ a.nav-link-ahref:hover {
 .home-inbox-text {
   font-size: 3.5rem;
   line-height: 3rem
-}
-svg.behance-svg, svg.instagram-svg {
-    width: 20px;
-    height: 20px
 }
 .marquee_container {
   width: 100%;
@@ -168,7 +190,7 @@ svg.behance-svg, svg.instagram-svg {
   padding: 10px 0
 }
 .copyright {
-  padding-top: 20px;
+  padding: 20px;
   font-size: 1rem;
   color: whitesmoke;
   background: var(--colorB);
@@ -176,6 +198,10 @@ svg.behance-svg, svg.instagram-svg {
 .copyright .container .footer {
   display: flex;
   justify-content: space-between;
+}
+.footer p {
+  line-height: 1rem;
+  font-size: .7rem;
 }
 .vctr1 {
     position: absolute;
@@ -194,7 +220,7 @@ svg.behance-svg, svg.instagram-svg {
   }
 .contact-me-btn {
   background: var(--colorB);
-  color: var(--colorD);
+  color: var(--colorE) !important;
   position: absolute;
   top: 55%;
   right: 4%;
@@ -215,7 +241,7 @@ button {
 }
 
 .space__smallsc__nav {
-  margin: 50px 0
+  margin: 10px 0
 }
 
 .a1{-webkit-animation:a1 .6s cubic-bezier(.25,.46,.45,.94) both;animation:a1 .6s cubic-bezier(.25,.46,.45,.94) both}
@@ -257,7 +283,19 @@ button {
   padding: 25px;
   margin: 20px;
 }
-
+.social__nav_small {
+  margin-bottom: 30px;
+}
+.social__nav_small .behance-svg, .social__nav_small .linkedin-svg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  background: var(--colorC);
+  fill: var(--colorE);
+  padding: 8px;
+  border-radius: 3px
+}
  @-webkit-keyframes a1{0%{-webkit-transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
  @keyframes a1{0%{-webkit-transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);transform:rotateY(20deg) rotateX(-35deg) translate(300px,300px) skew(35deg,-10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
 
