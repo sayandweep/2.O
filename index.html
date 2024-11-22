@@ -19,12 +19,8 @@
   <!-- style -->
   <link rel='stylesheet' href='2.0.css'>
   <link rel='stylesheet' href='2.0.media.css'>
+  <link rel="stylesheet" href="font.css">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
-
-  <!-- fonts -->
-  <link href='https://fonts.cdnfonts.com/css/ratfern' rel='stylesheet'>
-  <link href='https://fonts.cdnfonts.com/css/br-shape' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap' rel='stylesheet'>
   
   </head>
 <body>
@@ -41,7 +37,7 @@
   <!-- NAVBAR -->
   <nav class='navbar navbar-expand-lg navbar-light'>
     <div class='container'>
-      <a class='navbar-brand logo' href='/2.O/'>Sayandweep.</a>
+      <a class='navbar-brand font2' href='/2.O/'>Sayandweep.</a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation'>
 <svg width="46" height="46" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   <path d="M12 12v6m-6-6h6-6Zm12 0h-6 6Zm-6 0V6v6Z"></path>
@@ -49,11 +45,18 @@
       <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
         <div class="space__smallsc__nav large-hide"></div>
         <div class='navbar-nav'>
-          <a class='navbar-link-ahref' aria-current='page' href='/2.O/showcase.html'>SHOWCASE</a>
-          <a style='padding: 0 10px;text-decoration: none; color: inherit;' class='small-hide'>/</a>
-          <a class='navbar-link-ahref' aria-current='page' href='/2.O/appreciation.html'>APPRECIATION</a>
-          <a style='padding: 0 10px;text-decoration: none; color: inherit;' class='small-hide'>/</a>
-          <a class='navbar-link-ahref small-hide' aria-current='page' href='mailto:sayandweepbiswas@gmail.com'> sayandweepbiswas@gmail.com</a>
+          <span class="navbar-link-ahref social__nav_small">               <a href='//behance.net/Sayandweep'><svg xmlns='http://www.w3.org/2000/svg' class='behance-svg' viewBox='0 0 24 24' fill='#000'><path d='M18.53 8.12c5.77 0 5.08 6.08 5.05 6.28v.01h-7.51c0 2.7 2.55 2.52 2.55 2.52 2.33 0 2.33-1.46 2.32-1.55h2.56c0 4.13-4.97 3.85-4.97 3.85-5.95 0-5.57-5.54-5.57-5.54v-.02c0-.37.2-5.55 5.57-5.55zM.23 4.42h7.55c2.3 0 4.1 1.27 4.1 3.87s-2.2 2.76-2.2 2.76c2.91 0 2.7 3.6 2.7 3.6 0 4.06-3.88 4.27-4.51 4.28H.24V4.43h7.54H.24zm7.55 8.06H3.56v3.87h4.01c.6-.01 1.74-.19 1.74-1.88 0-1.87-1.32-1.99-1.5-2h-.02zm10.8-2.24c-2.16 0-2.52 2.09-2.54 2.23h4.76v-.02c0-.25-.11-2.21-2.21-2.21zM7.79 7H3.56v3.24h3.96c.68 0 1.29-.22 1.29-1.73 0-1.38-.86-1.5-1-1.5h-.02zM21.4 5.28v1.79h-5.98V5.28h5.98z'/></svg></a>
+           <a href='https://www.linkedin.com/in/sayandweep'><svg xmlns="http://www.w3.org/2000/svg" class="linkedin-svg" width="20" height="20" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+
+</span>
+
+          <span class="navbar-crosmenu-tit large-hide">• Have you checked this...</span>
+          <a class='navbar-link-ahref' aria-current='page' href='/2.O/showcase.html'>Showcase</a>
+          <a class='navbar-link-ahref' aria-current='page' href='/2.O/appreciation.html'>Appreciation</a>
+          <a class='navbar-link-ahref' aria-current='page' href='mailto:sayandweepbiswas@gmail.com'> Contact</a>
+          
+          <span class="navbar-crosmenu-tit large-hide">• Buy me a coffee...</span>
+          <a class='navbar-link-ahref' aria-current='page' href='https://buymeacoffee.com/sayandweep'>Coffee</a>
         </div>
         
       </div>
@@ -61,7 +64,7 @@
   </nav>
 
   <!-- 1ST PART -->
-  <div class='container'>
+  <!-- <div class='container'>
     <div class='home__sq '>
    <div class='row'>
      <div class='col-3 col-lg-2'>
@@ -83,7 +86,7 @@
        </div>
      </div>
    </div>
-  </div>
+  </div> -->
 
   <!-- 2ND PART -->
   <div class='container'>
@@ -132,18 +135,17 @@
   <div class='copyright'>
     <div class="container">
         <div class="footer">
-    <p>Failure is an option here. If things are not failing, you are not innovating enough / Elon Musk</p>
-    <p onclick='toTopFunction()'>- Sayandweep 2024 / <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='white' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M18 15l-6-6-6 6'/></svg></p>
+    <p>Sayandweep 2024</p>
+    <p onclick='toTopFunction()'><svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='white' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M18 15l-6-6-6 6'/></svg></p>
   </div>
 </div>
 </div>
 
 <!-- 6TH PART -->
-  <div class='overflow-x-hidden large-hide'>
-  <a class='pro__active' href='mailto:sayandweepbiswas@gmail.com' tabindex='-1' aria-disabled='true'>Email: sayandweepbiswas@gmail.com</a>
+  <div class='overflow-x-hidden footer-mail-btn large-hide'>
+  <a class='pro__active' href='mailto:sayandweepbiswas@gmail.com' tabindex='-1' aria-disabled='true'>sayandweepbiswas@gmail.com</a>
   </div>
 
-  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sayandweep" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
   <!-- Javascript -->
   <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js'></script>
