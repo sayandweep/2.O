@@ -17,6 +17,7 @@
         <!-- style -->
         <link rel='stylesheet' href='2.0.css'>
         <link rel='stylesheet' href='2.0.media.css'>
+        <link rel="stylesheet" href="font.css">
       <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
 
         <!-- fonts -->
@@ -25,232 +26,213 @@
         <link href='https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap' rel='stylesheet'>
 
       </head>
-<body>
+<body class="bgBlack">
  <!-- NAVBAR -->
- <nav class='navbar navbar-expand-lg navbar-light'>
-    <div class='container'>
-      <a class='navbar-brand logo' href='/2.O/'>Sayandweep.</a>
+ <nav class='navbar navbar-expand-lg navbar-dark' style="background: #0E0F11">
+      <div class="container">
+      <a class='navbar-brand' href='/2.O/'>Sayandweep.</a>
       <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation'>
-<svg width="46" height="46" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<svg width="30" height="30" fill="none" stroke-linecap="round" stroke="white" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   <path d="M12 12v6m-6-6h6-6Zm12 0h-6 6Zm-6 0V6v6Z"></path>
-</svg>    </button>
+</svg>   </button>
       <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
+        <div class="space__smallsc__nav large-hide"></div>
         <div class='navbar-nav'>
+          <span class="navbar-link-ahref social__nav_small">               <a href='//behance.net/Sayandweep'><svg xmlns='http://www.w3.org/2000/svg' class='behance-svg' viewBox='0 0 24 24' fill='#000'><path d='M18.53 8.12c5.77 0 5.08 6.08 5.05 6.28v.01h-7.51c0 2.7 2.55 2.52 2.55 2.52 2.33 0 2.33-1.46 2.32-1.55h2.56c0 4.13-4.97 3.85-4.97 3.85-5.95 0-5.57-5.54-5.57-5.54v-.02c0-.37.2-5.55 5.57-5.55zM.23 4.42h7.55c2.3 0 4.1 1.27 4.1 3.87s-2.2 2.76-2.2 2.76c2.91 0 2.7 3.6 2.7 3.6 0 4.06-3.88 4.27-4.51 4.28H.24V4.43h7.54H.24zm7.55 8.06H3.56v3.87h4.01c.6-.01 1.74-.19 1.74-1.88 0-1.87-1.32-1.99-1.5-2h-.02zm10.8-2.24c-2.16 0-2.52 2.09-2.54 2.23h4.76v-.02c0-.25-.11-2.21-2.21-2.21zM7.79 7H3.56v3.24h3.96c.68 0 1.29-.22 1.29-1.73 0-1.38-.86-1.5-1-1.5h-.02zM21.4 5.28v1.79h-5.98V5.28h5.98z'/></svg></a>
+           <a href='https://www.linkedin.com/in/sayandweep'><svg xmlns="http://www.w3.org/2000/svg" class="linkedin-svg" width="20" height="20" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
 
-          <a class='navbar-link-ahref' aria-current='page' href='/2.O#showcase'>SHOWCASE 2024</a>
-          <a style='padding: 0 10px;text-decoration: none; color: inherit;' class='small-hide'>/</a>
-          <a class='navbar-link-ahref' aria-current='page' href='mailto:sayandweepbiswas@gmail.com'> sayandweepbiswas@gmail.com</a>
+</span>
+
+          <span class="navbar-crosmenu-tit large-hide c-whitesmoke">• Have you checked this...</span>
+          <a class='navbar-link-ahref c-white' aria-current='page' href='/2.O/showcase.html'>⚡️ Showcase</a>
+          <a class='navbar-link-ahref  c-white' aria-current='page' href='/2.O/appreciation.html'>👏🏻 Appreciation</a>
+          <a class='navbar-link-ahref c-white' aria-current='page' href='mailto:sayandweepbiswas@gmail.com'> 📧 Contact</a>
+          
+          <span class="navbar-crosmenu-tit large-hide c-whitesmoke">• Buy me a coffee...</span>
+          <a class='navbar-link-ahref  c-white' aria-current='page' href='https://buymeacoffee.com/sayandweep'>Coffee</a>
         </div>
+        
       </div>
+    
     </div>
   </nav>
 
-  <div class="vector">
-    <img src="images2.0/scrldwn.png" alt="vctr2" class="vctr2" width="100%">
-  </div>
+<div class="colorG1"></div>
+
   <!-- 2ND PART -->
-  <div class='container'>
-    <div class='home-inbox-text'>
-      Full Collection of Posters, Thumbnails, Reels.
+  <div class='showcasePage bgBlack c-whitesmoke' id="g">
+    <div class="container">
+      <h2>Collection of graphic posters and ui.</h2>
+      <p>Software used: <span style="color: white">Pixellab, Photoshop, Figma, Capcut, Blurrr</span></p>
     </div>
   </div>
     
+
   <!-- SHOWCASE -->
-   <div class="showcase-page">
-    <div class="container">
+   <div class="container">
+    <div class="showcase-page">
         <div class="row">
-
-            <!-- UI -->
-            <div class="col-sm-12">
-                <img src="images2.0/BNNNN.jpg" alt="UI DESIGN BANNER" width="100%" class="a1 round">
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/2.png" alt="https://sayandweep.github.io/2.O/images2.0/2.png" width="100%">
             </div>
-            <div class="col-sm-12">
-                <img src="images2.0/Client151124.png" alt="UI1" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20230629_164957.jpg" alt="i" width="100%">
             </div>
-            <div class="col-sm-12">
-                <img src="images2.0/nicesurvey.png" alt="UI2" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20230630_163933.jpg" alt="i" width="100%">
             </div>
-
-            
-            
-            <div class="col-sm-6">
-                <a href="https://drive.google.com/file/d/1QA684WkDF7tGVuhm4RC5jJbi07UDFNHa/view?usp=sharing" target="_blank"><img src="images2.0/VideoCapture_20241116-152715.jpg" alt="50" width="100%" class="a1 round"></a>
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20230816_231208.jpg" alt="i" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/50.jpg" alt="50" width="100%" class="a1 round">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/51.jpg" alt="50" width="100%" class="a2 round">
+           <div class="col-6 col-lg-6 col-md-6">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20230820_220417.jpg" alt="i" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/52.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-6 col-md-6">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240525_001345.jpg" alt="i" width="100%">
             </div>
-
-         
-            <div class="col-sm-6">
-                <img src="images2.0/48.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-12 col-lg-6 col-md-6">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240512_162923.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/46.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20230829_193253.jpg" alt="i" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/47.jpg" alt="50" width="100%" class="a1 round">
-            </div>    
-            <div class="col-sm-6">
-                <img src="images2.0/53.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20230902_201151.jpg" alt="i" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240905_225144.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240611_233758.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240904_175158.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240530_095404.jpg" alt="i" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/L7.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-6 col-md-6">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240601_140601.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/33.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-6 col-md-6">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240529_134820.jpg" alt="yt" width="100%">
             </div>
-
-        
-
-            <div class="col-sm-6">
-                <img src="images2.0/44.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-6 col-md-6">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240527_163350.jpg" alt="14yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/45.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240904_175158.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/yt.jpg" alt="50" width="100%" class="a1 round">
-            </div>    
-            <div class="col-sm-6">
-                <img src="images2.0/yt2.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240905_225144.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240611_233758.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240924_174825.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240601_140601.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20241020_135144.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240529_134820.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20241020_140700.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240527_163350.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20241020_141730.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240530_095404.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20241020_142344.jpg" alt="yt" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240522_234112.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-6 col-lg-3 col-md-3">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20241020_165106.jpg" width="100%" alt="i">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240522_230157.jpg" alt="50" width="100%" class="a2 round">
+          </div>
+          <div class="col-6 col-lg-12 col-md-12">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/20240519_001105.jpg" alt="i" width="100%">
             </div>
-
-
-
-
-            -----
-
-
-            <div class="col-sm-6">
-                <img src="images2.0/20240525_001345.jpg" alt="50" width="100%" class="a1 round">
+          </div>
+          <div class="col-12 col-lg-12 col-md-12">
+            <div>
+              <img src="https://sayandweep.github.io/2.O/images2.0/yt.jpg" alt="i" width="100%">
             </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240519_001105.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240530_095404.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240519_001052.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/26.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240512_162923.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230902_201151.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230829_193253.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230820_220417.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230816_231208.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/L4.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230630_163933.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230629_164957.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-
-
-
-
-
-
-
-            
-
-
-            <div class="col-sm-6">
-                <img src="images2.0/20230629_164957.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230630_163933.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20230816_231208.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240924_174825.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241020_135144.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241020_164336.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241020_165106.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241020_142344.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241029_190011.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241029_190241.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241029_190727.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20240924_174825.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241029_194354.jpg" alt="50" width="100%" class="a1 round">
-            </div>
-            <div class="col-sm-6">
-                <img src="images2.0/20241107_213251.jpg" alt="50" width="100%" class="a2 round">
-            </div>
-
-
-            
-        </div>
+          </div>
     </div>
    </div>
+   
+   <div class="colorG1"></div>
+
+  <!-- 2ND PART -->
+  <div class='showcasePage bgBlack c-whitesmoke' id="v">
+    <div class="container">
+      <h2>Collection of videos.</h2>
+      <p>About: <span style="color: white">Long form and short form contents for clients</span></p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="showcase-page">
+      <div class="row">
+        <div class="col-6 col-md-3 col-lg-3">
+          <div>
+            <a href="#">
+              <img src="https://sayandweep.github.io/2.O/images2.0/reel1.jpg" alt="reel1" width="100%">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <div>
+            <a href="#">
+              <img src="https://sayandweep.github.io/2.O/images2.0/reel2.jpg" alt="reel2" width="100%">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 col-lg-3">
+          <div>
+            <a href="#">
+              <img src="https://sayandweep.github.io/2.O/images2.0/reel3.jpg" alt="reel3" width="100%">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 <!-- Javascript -->
 <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js'></script>
